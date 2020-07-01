@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1593454949 source:c:\users\dell\desktop\k\codeblocks_k\trials\main.cpp
+	<iostream>
+	"myheader.h"
+
+1593454915 source:c:\users\dell\desktop\k\codeblocks_k\trials\myheader.cpp
+	"myheader.h"
+	<iostream>
+	<cmath>
+
+1593499481 c:\users\dell\desktop\k\codeblocks_k\trials\myheader.h
+
