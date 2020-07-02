@@ -1,6 +1,6 @@
 ### A constant learner and programmer pursuing a bachelor's in electronics engineering
 
-##Programming languages i work with
+## Programming languages i work with
 - C language
 - C++
 - python
