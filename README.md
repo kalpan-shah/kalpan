@@ -1,5 +1,3 @@
-#Kalpan Shah
-
 ### A constant learner and programmer pursuing a bachelor's in electronics engineering
 
 ##Programming languages i work with
