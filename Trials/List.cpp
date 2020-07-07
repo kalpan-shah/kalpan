@@ -9,7 +9,7 @@ const T & List<T>::operator[](unsigned index) {
   while (index > 0 && thru->next != nullptr) {
     thru = thru->next;
     index--;
-  }  
+  }
 
   // Return the data:
   return thru->data;
@@ -21,11 +21,11 @@ void List<T>::prepend(const T & data) {
   // Create a new ListNode on the heap:
   ListNode *node = new ListNode(data);
 
-  // Set the new nodeâ€™s next pointer point the current
+  // Set the new node’s next pointer point the current
   // head of the List:
   node->next = head_;
 
-  // Set the Listâ€™s head pointer to be the new node:
+  // Set the List’s head pointer to be the new node:
   head_ = node;
 }
 
@@ -42,5 +42,5 @@ typename List<T>::ListNode *List<T>::_find(const T & data) {
     thru = thru->next;
   }
 
-  return nullptr;  
+  return nullptr;
 }

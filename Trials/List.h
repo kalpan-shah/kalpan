@@ -1,13 +1,14 @@
-#ifndef LIST_H_INCLUDED
-#define LIST_H_INCLUDED
-//Class templeted with a undefined datatype
+//#ifndef LIST_H
+//#define LIST_H
+#pragma once
+
 template <typename T>
 class List {
   public:
     const T & operator[](unsigned index);
     void prepend(const T & data);
 
-    // To make sure head_ is null-initialized.
+    // We define this constructor to make sure that head_ is null-initialized.
     List() : head_(nullptr) { }
 
     // We define a destructor to delete the memory allocated for the ListNode
@@ -40,8 +41,10 @@ class List {
     };
 
     ListNode *head_;   /*< Head pointer for our List */
-    
+
     ListNode* _find(const T & data);
 };
 
-#endif //LIST_H_INCLUDED
+
+#include "List.cpp"
+//#endif // LIST_H
