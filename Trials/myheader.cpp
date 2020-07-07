@@ -24,36 +24,8 @@ int dxy(int x1,int x2,int y1,int y2)
 {
     return std::sqrt(std::pow(x2 - x1, 2) +  std::pow(y2 - y1, 2) * 1.0);
 }
-//Data structures
-//namespace ds
-//{
-    //Look for the data in the linked list for our given index
-    template<typename T1>
-    const T1 & List<T1>::operator[](unsigned index)
-    {
-        ListNode*thru = head_;
-        //through the head until the end of the list
-        while(index > 0 && thru->next != nullptr)
-        {
-            thru = thru->next;
-            index--;
-        }
-        //return data for that index
-        return thru->data;
-    }
-    //add a new data in front of the list
-    template <typename T1>
-    void List<T1>::append(const T1 & data)
-    {
-         //creating a new heap for the data
-        ListNode *node = new ListNode(data);
-       //setting the next with the head of the previous list
-        node->next = head_;
-        //making the new node the head
-        head_ = node;
-    }
 
-//shape namespace
+//This space include various shapes variable
 namespace sh
 {
     //calculate and return volume of cube
