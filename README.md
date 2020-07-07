@@ -5,7 +5,7 @@
 - C++
 - python
 
-The best way to inwake ambition is to `append(knowledge)` and   `remove(acceptance)`
+The best way to inwake ambition is to `append(knowledge)` and   `prepend(acceptance)`
 
 ```
 To attain knowlege, add things everyday. 
