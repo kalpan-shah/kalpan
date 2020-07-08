@@ -24,8 +24,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="List.cpp" />
-		<Unit filename="List.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="myheader.cpp" />
 		<Unit filename="myheader.h" />
