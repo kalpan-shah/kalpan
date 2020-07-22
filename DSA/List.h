@@ -1,3 +1,4 @@
+//Linked list
 #pragma once
 
 template <typename T>
@@ -9,7 +10,7 @@ class List {
     //this constructor, head_ is null-initialized.
     List() : head_(nullptr) { }
 
-    
+
     //destructor to delete the memory allocated for the ListNode, when the List is destroyed.
     ~List() {
       //from the head.
@@ -38,7 +39,7 @@ class List {
     };
 
     ListNode *head_;   /*< Head pointer for our List */
-    
+
     ListNode* _find(const T & data);
 };
 
