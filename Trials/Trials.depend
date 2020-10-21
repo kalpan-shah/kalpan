@@ -1,8 +1,7 @@
 # depslib dependency file v1.0
-1594109909 source:c:\users\dell\desktop\k\codeblocks_k\trials\main.cpp
+1597593737 source:c:\users\dell\desktop\k\codeblocks_k\trials\main.cpp
 	<iostream>
 	"../DSA/List.h"
-	"myheader.h"
 
 1594103341 source:c:\users\dell\desktop\k\codeblocks_k\trials\myheader.cpp
 	"myheader.h"
@@ -11,11 +10,13 @@
 
 1594103249 c:\users\dell\desktop\k\codeblocks_k\trials\myheader.h
 
-1594109832 c:\users\dell\desktop\k\codeblocks_k\dsa\list.h
+1597593912 c:\users\dell\desktop\k\codeblocks_k\dsa\list.h
+	<iostream>
 	"List.cpp"
 
-1594109398 c:\users\dell\desktop\k\codeblocks_k\dsa\list.cpp
+1597593910 c:\users\dell\desktop\k\codeblocks_k\dsa\list.cpp
 	"List.h"
+	<ostream>
 
 1594108905 source:c:\users\dell\desktop\k\codeblocks_k\trials\list.cpp
 	"List.h"
@@ -25,4 +26,8 @@
 
 1594108905 c:\users\dell\desktop\k\codeblocks_k\trials\list.cpp
 	"List.h"
+
+1595448700 c:\users\dell\desktop\k\codeblocks_k\dsa\list.hpp
+	"List.h"
+	<ostream>
 

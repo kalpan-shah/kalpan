@@ -1,16 +1,18 @@
-//Linked list
 #pragma once
-
+#include<iostream>
+//We can only add const varible to the list so do intialize them as const then add
 template <typename T>
 class List {
   public:
     const T & operator[](unsigned index);
     void prepend(const T & data);
-
+    void presort(const T & data);
+    //insert in the linked list on a ordered position
+    void rever();
+    //Returns the true length of the list
+    int listlength();
     //this constructor, head_ is null-initialized.
-    List() : head_(nullptr) { }
-
-
+    List() : head_(nullptr) {std::cout<<"constructed\n"; }
     //destructor to delete the memory allocated for the ListNode, when the List is destroyed.
     ~List() {
       //from the head.
@@ -28,19 +30,24 @@ class List {
         // should generally do this after deleting a pointer:
         toDelete = nullptr;
       }
+      std::cout<<"deletion executed\n";
     }
+
 
   private:
     class ListNode {
       public:
         const T & data;
         ListNode *next;
-        ListNode(const T & data) : data(data), next(nullptr) { }
+        ListNode *prev;
+        ListNode(const T & data) : data(data), next(nullptr), prev(nullptr) {std::cout<<"data placed\n"; }
     };
 
     ListNode *head_;   /*< Head pointer for our List */
-
+    ListNode *tail_;   /*< Tail pointer for our List */
     ListNode* _find(const T & data);
+
+
 };
 
 // Finish including the rest of the header from the additional header file.

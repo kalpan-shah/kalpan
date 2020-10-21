@@ -24,6 +24,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="LinkedList.h" />
+		<Unit filename="LinkedListExercises.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="myheader.cpp" />
 		<Unit filename="myheader.h" />
